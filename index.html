@@ -1,4 +1,4 @@
-<?php
+<!-- ?php
 
 $searchBox = '
 	<div class="menu_option">
@@ -9,7 +9,7 @@ $searchBox = '
 	</div>
 ';
 
-?>
+? -->
 
 <!DOCTYPE html> 
 <html> 
@@ -24,6 +24,12 @@ $searchBox = '
 	<script>
 		function resetSelect() { $('#elements').val(1);  $('#elements').selectmenu('refresh'); }
 	</script>
+
+	<script> 
+		$(function(){
+			$("#headerLogo").load("hiq-logo.html"); 
+		});
+	</script> 
 	
 	<style>
 		td { text-align:center; }
@@ -38,7 +44,11 @@ $searchBox = '
 	<div data-role="header">
 		<a href="#home" data-role="button" data-icon="home" class="ui-btn-right">Home</a>
 		<h1>HazmatIQ Guru</h1>
-	</div><?php include("hiq-logo.php"); ?><!-- /header -->
+	</div>
+
+	<div id="headerLogo"></div>
+
+<!-- ?php include("hiq-logo.php"); ? --><!-- /header -->
 
 	<div data-role="content">
 		<?php echo $searchBox; ?>
