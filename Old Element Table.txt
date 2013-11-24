@@ -1,0 +1,115 @@
+<table style="width:100%;">
+			<tr>
+				<td>Aluminum</td>
+				<td>Lead</td>
+				<td>Sodium <img src="images/hmiq_w.png" class="w" /></td>
+			</tr>
+			<tr>
+				<td>Antimony</td>
+				<td>Lithium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Strontium <img src="images/hmiq_w.png" class="w" /></td>
+			</tr>
+			<tr>
+				<td>Barium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Magnesium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Tantalum</td>
+			</tr>
+			<tr>
+				<td>Beryllium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Manganese</td>
+				<td>Thallium</td>
+			</tr>
+			<tr>
+				<td>Bismuth</td>
+				<td>Mercury</td>
+				<td>Tin</td>
+			</tr>
+			<tr>
+				<td>Calcium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Molybdenum</td>
+				<td>Titanium</td>
+			</tr>
+			<tr>
+				<td>Cesium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Nickel</td>
+				<td>Tungsten</td>
+			</tr>
+			<tr>
+				<td>Chromium</td>
+				<td>Osmium</td>
+				<td>Uranium</td>
+			</tr>
+			<tr>
+				<td>Cobalt</td>
+				<td>Potassium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Vanadium</td>
+			</tr>
+			<tr>
+				<td>Copper</td>
+				<td>Radium</td>
+				<td>Yttrium</td>
+			</tr>
+			<tr>
+				<td>Germanium</td>
+				<td>Rhodium</td>
+				<td>Zinc</td>
+			</tr>
+			<tr>
+				<td>Hafnium</td>
+				<td>Rubidium <img src="images/hmiq_w.png" class="w" /></td>
+				<td>Zirconium</td>
+			</tr>
+			<tr>
+				<td>Iron</td>
+				<td>Silver</td>
+				<td></td>
+			</tr>			
+		</table>
+		
+		
+		<select style="width:100%;height:500px;font-size:28px;" id="elements">
+			<option selected="selected">Open menu</option>
+			<option>Aluminum</option>
+			<option>Antimony</option>
+			<option>Barium</option>
+			<option>Beryllium</option>
+			<option>Bismuth</option>
+			<option>Calcium</option>
+			<option>Cesium</option>
+			<option>Chromium</option>
+			<option>Cobalt</option>
+			<option>Copper</option>
+			<option>Germanium</option>
+			<option>Hafnium</option>
+			<option>Iron</option>
+			<option>Lead</option>
+			<option>Lithium</option>
+			<option>Magnesium</option>
+			<option>Manganese</option>
+			<option>Mercury</option>
+			<option>Molybdenum</option>
+			<option>Nickel</option>
+			<option>Osmium</option>
+			<option>Potassium</option>
+			<option>Radium</option>
+			<option>Rhodium</option>
+			<option>Rubidium</option>
+			<option>Silver</option>
+			<option>Sodium</option>
+			<option>Strontium</option>
+			<option>Tantalum</option>
+			<option>Thallium</option>
+			<option>Tin</option>
+			<option>Titanium</option>
+			<option>Tungsten</option>
+			<option>Uranium</option>
+			<option>Vanadium</option>
+			<option>Yttrium</option>
+			<option>Zinc</option>
+			<option>Zirconium</option>
+		</select>
+		
+		<ul data-role="listview" data-inset="true">
+			<li onclick="resetSelect();"><a href="#belowTheLine">Yes</a></li>
+			<li onclick="resetSelect();"><a href="#aboveTheLine">No</a></li>
+		</ul>
