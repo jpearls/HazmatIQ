@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1252" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://federalresources.com/ns/1.0"
-        id        = "com.federalresources.hazmatiq"
+        id        = "com.federalresources.hazmatiqguru"
         versionCode="10" 
         version   = "1.0.0">
 
