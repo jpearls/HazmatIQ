@@ -14,8 +14,20 @@
 
 	<script> 
 		$(function(){
-			$("#headerLogo").load("hiq-logo.html"); 
+			$('#headerLogo').load('hiq-logo.html'); 
 		});
+  
+		$(function(){
+      $('.searchBox').html('
+        <div class="menu_option">
+          <form action="search.php" method="get">
+              <input type="text" name="q" placeholder="Chemical Name, Formula, or UN Number" value="" data-type="search" data-clear-btn="true" />  
+              <!-- input type="submit" value="Search" data-icon="search" -->
+          </form>
+        </div>
+      ');
+		});  
+  
 	</script> 
 	
 	<style>
@@ -38,7 +50,7 @@
 <!-- ?php include("hiq-logo.php"); ? --><!-- /header -->
 
 	<div data-role="content">
-		<?php echo $searchBox; ?>
+		<div class="searchBox"></div>
 		
 		<ul data-role="listview" data-inset="true">
 			<li><a href="#start">Begin HazmatIQ System</a></li>
@@ -343,7 +355,7 @@
 	</div>
 
 	<div data-role="content">
-		<?php echo $searchBox; ?>
+		<div class="searchBox"></div>
 		
 		<div style="font-weight:bold;">STANDARD OPERATING GUIDELINES FOR UKNOWN CHEMICALS (RED ONE)</div>
 		<div>
